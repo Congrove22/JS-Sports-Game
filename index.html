@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Game Challenge</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>HIGHLANDERS VERSUS SHAMROCKS</h1>
+      <div id="reset-container">
+        <button id="reset-button">RESET</button><br />
+        NUMBER OF RESETS: <span id="num-resets">0</span>
+      </div>
+      <div class="clear"></div>
+      <div class="left">
+        <h2>Halifax Highlanders</h2>
+        <div class="goals">
+          SHOTS ON GOAL: <span id="teamone-numshots">0</span><br />
+          GOALS: <span id="teamone-numgoals">0</span>
+        </div>
+        <div>
+          <button id="teamone-shoot-button">SLAPSHOT</button>
+        </div>
+      </div>
+      <div class="right">
+        <h2>St Johns Shamrocks</h2>
+        <div class="goals">
+          SHOTS ON GOAL: <span id="teamtwo-numshots">0</span><br />
+          GOALS: <span id="teamtwo-numgoals">0</span>
+        </div>
+        <div>
+          <button id="teamtwo-shoot-button">SLAPSHOT</button>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <script src="./assets/javascript/game.js"></script>
+  </body>
+</html>
